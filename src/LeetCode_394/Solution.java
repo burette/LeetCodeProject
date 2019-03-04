@@ -14,7 +14,7 @@ public class Solution {
                     data.push(1);
                 }
             }
-            if(s.charAt(i)>='1'&&s.charAt(i)<=''){
+            if(s.charAt(i)>='1'&&s.charAt(i)<='1'){
                 flag.push('[');
             }
 
