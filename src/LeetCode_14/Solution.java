@@ -1,4 +1,10 @@
-package LeetCode_2;
+package LeetCode_14;
+
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) { val = x; }
+}
 
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

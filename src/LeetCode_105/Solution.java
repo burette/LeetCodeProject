@@ -7,9 +7,9 @@ public class Solution {
         }
         else {
             TreeNode root = new TreeNode(preorder[0]);
-            root.left = buildTree(,System.arraycopy(inorder,0,getIndex(inorder,root.val),))
+//            root.left = buildTree(,System.arraycopy(inorder,0,getIndex(inorder,root.val),))
         }
-
+        return null;
     }
     public int getIndex(int[] array,int value){
         for(int i=0;i<array.length;i++){
