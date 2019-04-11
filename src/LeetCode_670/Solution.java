@@ -11,5 +11,7 @@ public class Solution {
             Character ch = str.charAt(i);
             nums[i] = Integer.parseInt(ch.toString());
         }
+
+        return 0;
     }
 }

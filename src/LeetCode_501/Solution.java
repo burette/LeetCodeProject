@@ -21,6 +21,7 @@ public class Solution {
         Map<Integer, Integer> map = new HashMap<>();
         inorder(root,map);
 
+        return null;
 
     }
     void inorder(TreeNode root, Map map){

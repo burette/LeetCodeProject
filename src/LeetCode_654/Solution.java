@@ -9,6 +9,8 @@ public class Solution {
     public TreeNode constructMaximumBinaryTree(int[] nums) {
         TreeNode root;
         int max = Arrays.stream(nums).max().getAsInt();
+
+        return null;
     }
 }
 
