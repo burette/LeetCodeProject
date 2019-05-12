@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce2cd7f1-cb4a-477a-9461-e53a3df29589" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_196/query.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_461/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_684/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCode_929/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_589/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_590/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_657/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode_700/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCodeProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCodeProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCodeProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCode_207/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCode_207/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCode_632/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCode_632/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCode_807/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCode_807/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_207/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode_207/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_632/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode_632/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCode_807/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode_807/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCode_461/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeProject/LeetCode_461/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LeetCode_461/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCode_461/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +59,7 @@
     <session id="1272705681">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
@@ -82,26 +75,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="67" />
+          <entry key="java" value="71" />
           <entry key="sql" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DBN-SQL" value="1" />
-          <entry key="JAVA" value="67" />
+          <entry key="JAVA" value="71" />
           <entry key="SQL" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9208" />
+          <entry key="java" value="10015" />
           <entry key="sql" value="306" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9208" />
+          <entry key="JAVA" value="10015" />
           <entry key="SQL" value="306" />
         </counts>
       </usages-collector>
@@ -109,23 +102,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode_929/Solution.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LeetCode_590/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="7" selection-start-line="7" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="87">
+              <caret line="6" selection-start-line="6" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LeetCode_461/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -145,10 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LeetCode_537/Solution.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode_917/Solution.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode_520/Solution.java" />
-        <option value="$PROJECT_DIR$/src/LeetCode_866/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode_942/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode_728/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode_171/Solution.java" />
@@ -196,6 +176,10 @@
         <option value="$PROJECT_DIR$/src/LeetCode_196/query.sql" />
         <option value="$PROJECT_DIR$/src/LeetCode_929/Solution.java" />
         <option value="$PROJECT_DIR$/src/LeetCode_461/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode_657/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode_589/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode_590/Solution.java" />
+        <option value="$PROJECT_DIR$/src/LeetCode_700/Solution.java" />
       </list>
     </option>
   </component>
@@ -238,7 +222,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557662684708" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557668253806" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -254,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Solution.test">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCode_279.Solution" />
       <module name="LeetCodeProject" />
@@ -359,28 +343,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/LeetCode_441/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode_908/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode_866/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/local/jdk1.8.0_181/src.zip!/java/lang/Object.java" />
     <entry file="file://$PROJECT_DIR$/src/LeetCode_264/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -699,6 +661,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode_461/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LeetCode_929/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
@@ -709,10 +678,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LeetCode_461/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/LeetCode_657/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="266">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode_589/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode_700/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LeetCode_590/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="6" selection-start-line="6" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
