@@ -20,3 +20,8 @@ public class Solution extends GuessGame {
         return 1;
     }
 }
+class GuessGame{
+    int guess(int n){
+        return 0;
+    }
+}
