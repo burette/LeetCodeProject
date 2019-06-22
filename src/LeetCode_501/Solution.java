@@ -1,9 +1,6 @@
 package LeetCode_501;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 // Definition for a binary tree node.
 class TreeNode {
@@ -18,19 +15,36 @@ class TreeNode {
 
 public class Solution {
     public int[] findMode(TreeNode root) {
+
+        List<Integer> list = inorder(root);
+
         Map<Integer, Integer> map = new HashMap<>();
-        inorder(root,map);
+        for (Integer integer : list) {
+            if (map.containsKey(integer)) {
+                map.put(integer, map.get(integer) + 1);
+            } else {
+                map.put(integer, 1);
+            }
+        }
 
         return null;
 
     }
-    void inorder(TreeNode root, Map map){
-        if(root!=null){
-            inorder(root.left,map);
-            if(map.containsKey(root.val)){
-                map.put(root.val,(int)map.get(root.val)+1);
+
+    List<Integer> inorder(TreeNode root) {
+        if (root != null) {
+            List<Integer> ret = new LinkedList<>();
+            ret.add(root.val);
+            List<Integer> left = inorder(root.left);
+            for (Integer i : left) {
+                ret.add(i);
             }
-            inorder(root.right,map);
+            List<Integer> right = inorder(root.right);
+            for (Integer i : right) {
+                ret.add(i);
+            }
+            return ret;
         }
+        return null;
     }
 }
